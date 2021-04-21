@@ -1,0 +1,71 @@
+{
+  "pages": [
+    "pages/lead/lead",
+    "pages/menu/menu",
+    
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/openapi/openapi",
+    "pages/openapi/serverapi/serverapi",
+    "pages/openapi/callback/callback",
+    "pages/openapi/cloudid/cloudid",
+    "pages/im/im",
+    "pages/im/room/room",
+    
+    "pages/queue/index",
+    "pages/order-details/index",
+    "pages/my/index"
+
+
+
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTextStyle": "black"
+    
+    
+  },
+
+  "tabBar": {
+    "color": "#6e6d6b",
+    "selectedColor": "#e64340",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/menu/menu",
+        "iconPath": "images/nav/index-off.png",
+        "selectedIconPath": "images/nav/index-on.png",
+        "text": "点餐"
+      },
+      {
+        "pagePath": "pages/queue/index",
+        "iconPath": "images/nav/qh-off.png",
+        "selectedIconPath": "images/nav/qh-on.png",
+        "text": "取号"
+      },
+      {
+        "pagePath": "pages/order-details/index",
+        "iconPath": "images/nav/qc-off.png",
+        "selectedIconPath": "images/nav/qc-on.png",
+        "text": "取餐"
+      },
+      {
+        "pagePath": "pages/my/index",
+        "iconPath": "images/nav/my-off.png",
+        "selectedIconPath": "images/nav/my-on.png",
+        "text": "我的"
+      }
+    ]
+  },
+
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

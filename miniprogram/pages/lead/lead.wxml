@@ -1,0 +1,2 @@
+<!--pages/lead/lead.wxml-->
+<button bindtap="onbindtap">click to menu</button>
